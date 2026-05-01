@@ -82,8 +82,7 @@ public partial class App : Application
     {
         foreach (var uri in new[]
         {
-            "ms-appx:///ICSharpCode.AvalonEdit/Themes/generic.xaml",
-            "ms-appx:///UnoEdit/Themes/generic.xaml"
+            "ms-appx:///ICSharpCode.AvalonEdit/Themes/generic.xaml"
         })
         {
             try
