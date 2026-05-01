@@ -16,6 +16,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UnoEdit\src\UnoEdit\UnoEdit.csproj" />
+    <PackageReference Include="LeXtudio.UnoEdit" Version="0.4.3" />
   </ItemGroup>
 </Project>
