@@ -16,6 +16,5 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UnoEdit\src\UnoEdit\UnoEdit.csproj" />
   </ItemGroup>
 </Project>

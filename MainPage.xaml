@@ -3,7 +3,7 @@
     x:Class="TextBoxIME.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:unoedit="using:UnoEdit.Skia.Desktop.Controls"
+    
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Padding="24" ColumnSpacing="24">
@@ -45,12 +45,7 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <TextBlock FontSize="16"
-                       FontWeight="SemiBold"
-                       Text="UnoEdit TextEditor" />
-            <unoedit:TextEditor x:Name="Editor"
-                                Grid.Row="1"
-                                AutomationProperties.AutomationId="UnoEditEditor" />
+
         </Grid>
 
         <TextBlock x:Name="StatusText"
